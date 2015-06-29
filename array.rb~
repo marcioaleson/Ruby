@@ -1,0 +1,5 @@
+nomes = ["Ruby","Java","Php"]
+nomes << "C++"# adicionando um elemento ao array.
+puts nomes 
+puts nomes[2]
+
