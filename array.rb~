@@ -1,5 +1,8 @@
 nomes = ["Ruby","Java","Php"]
 nomes << "C++"# adicionando um elemento ao array.
 puts nomes 
-puts nomes[2]
-
+pessoa = {:nome=>"Marcio",:email=>"marcioaleson@gmail.com"}
+puts pessoa[:nome]
+puts pessoa[:email]
+numeros = [1,2,3,4,5]
+numeros.each {|numero| puts "O array tem o número: "+numero.to_s} #Interadores.
