@@ -1,7 +1,8 @@
 require "minitest/autorun"
+require "minitest/benchmark"
 require_relative "calculadora"
 
-class TesteCalculadora < Minitest::Unit::TestCase
+class TesteCalculadora < Minitest::Test
 	def setup
 	    @calculadora = Calculadora.new
 	end
